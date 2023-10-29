@@ -51,3 +51,18 @@ exports.register = (req, res) => {
     });
   }
 };
+
+exports.getAllUsers = (_, res) => {
+  try {
+    res.status(200).json({
+      status: 'success',
+      users,
+      dir: USERS_FILE_PATH,
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: 'fail',
+      message: err.message,
+    });
+  }
+};
