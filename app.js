@@ -11,6 +11,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 app.use(express.json());
+app.use('/images', express.static(`${__dirname}/images`));
 app.use(
   cors({
     origins: [
@@ -21,9 +22,8 @@ app.use(
   }),
 );
 
-const ENDPOINTS = { QUIZZES: '/api/v1/quizzes', USERS: '/api/v1/users' };
+const ENDPOINTS = { QUIZZES: '/api/v1/quizzes' };
 
 app.use(ENDPOINTS.QUIZZES, quizzesRouter);
-app.use(ENDPOINTS.USERS, usersRouter);
 
 module.exports = app;
