@@ -3,7 +3,6 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const quizzesRouter = require('./routes/quizzes');
-const usersRouter = require('./routes/users');
 
 const app = express();
 
