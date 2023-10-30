@@ -1,0 +1,343 @@
+{
+  "fictionals": {
+    "question": "რომელი ანიმაციური ფილმის პერსონაჟ(ებ)თან გააიგივებდით საკუთარ თავს?",
+    "data": [
+      {
+        "personalityCode": "r5",
+        "title": "კოკსვორტი",
+        "imgPath": "fictionals/cogsworth.png"
+      },
+      {
+        "personalityCode": "r2",
+        "title": "კონკია",
+        "imgPath": "fictionals/cinderella.png"
+      },
+      {
+        "personalityCode": "r9",
+        "title": "პოკაჰონტასი",
+        "imgPath": "fictionals/pocahontas.png"
+      },
+      {
+        "personalityCode": "r13",
+        "title": "ელსა",
+        "imgPath": "fictionals/elsa.png"
+      },
+      {
+        "personalityCode": "r1",
+        "title": "ფლიკი",
+        "imgPath": "fictionals/flik.png"
+      },
+      {
+        "personalityCode": "r3",
+        "title": "პუმბა",
+        "imgPath": "fictionals/pumba.png"
+      },
+      {
+        "personalityCode": "r11",
+        "title": "ბელი",
+        "imgPath": "fictionals/belle.png"
+      },
+      {
+        "personalityCode": "r15",
+        "title": "ბუ",
+        "imgPath": "fictionals/owl.png"
+      },
+      {
+        "personalityCode": "r7",
+        "title": "ფლინ რაიდერი",
+        "imgPath": "fictionals/flynn_rider.png"
+      },
+      {
+        "personalityCode": "r4",
+        "title": "პიტერ პენი",
+        "imgPath": "fictionals/peter_pan.png"
+      },
+      {
+        "personalityCode": "r12",
+        "title": "ალადინი",
+        "imgPath": "fictionals/aladin.png"
+      },
+      {
+        "personalityCode": "r16",
+        "title": "ბეღურა ჯეკი",
+        "imgPath": "fictionals/jack_sparrow.png"
+      },
+      {
+        "personalityCode": "r6",
+        "title": "მაქსიმუსი",
+        "imgPath": "fictionals/maximus.png"
+      },
+      {
+        "personalityCode": "r8",
+        "title": "მერი პოპინსი",
+        "imgPath": "fictionals/mary_poppins.png"
+      },
+      {
+        "personalityCode": "r10",
+        "title": "მუფასა",
+        "imgPath": "fictionals/mufasa.png"
+      },
+      {
+        "personalityCode": "r14",
+        "title": "შენგი",
+        "imgPath": "fictionals/shang.png"
+      }
+    ]
+  },
+  "animals": {
+    "question": "ამოარჩიეთ თქვენი საყვარელი ცხოველ(ებ)ი",
+    "data": [
+      { "personalityCode": "r15", "title": "ბუ", "imgPath": "animals/owl.png" },
+      {
+        "personalityCode": "r7",
+        "title": "მელია",
+        "imgPath": "animals/fox.png"
+      },
+      {
+        "personalityCode": "r3",
+        "title": "ზარმაცა",
+        "imgPath": "animals/sloth.png"
+      },
+      {
+        "personalityCode": "r14",
+        "title": "ლომი",
+        "imgPath": "animals/lion.png"
+      },
+      {
+        "personalityCode": "r2",
+        "title": "ირემი",
+        "imgPath": "animals/deer.png"
+      },
+      {
+        "personalityCode": "r13",
+        "title": "რვაფეხა",
+        "imgPath": "animals/octopus.png"
+      },
+      {
+        "personalityCode": "r1",
+        "title": "კატა",
+        "imgPath": "animals/cat.png"
+      },
+      {
+        "personalityCode": "r4",
+        "title": "წავი",
+        "imgPath": "animals/otter.png"
+      },
+      {
+        "personalityCode": "r9",
+        "title": "მგელი",
+        "imgPath": "animals/wolf.png"
+      },
+      {
+        "personalityCode": "r12",
+        "title": "დელფინი",
+        "imgPath": "animals/dolphin.png"
+      },
+      {
+        "personalityCode": "r6",
+        "title": "ფუტკარი",
+        "imgPath": "animals/bee.png"
+      },
+      {
+        "personalityCode": "r5",
+        "title": "თახვი",
+        "imgPath": "animals/beaver.png"
+      },
+      {
+        "personalityCode": "r10",
+        "title": "ძაღლი",
+        "imgPath": "animals/dog.png"
+      },
+      {
+        "personalityCode": "r11",
+        "title": "მანგუსტი",
+        "imgPath": "animals/mongoose.png"
+      },
+      {
+        "personalityCode": "r16",
+        "title": "თუთიყუში",
+        "imgPath": "animals/parrot.png"
+      },
+      {
+        "personalityCode": "r8",
+        "title": "სპილო",
+        "imgPath": "animals/elephant.png"
+      }
+    ]
+  },
+  "facebookers": {
+    "question": "ამოარჩიეთ თქვენთვის მისაღები ფეისბუკ აქტივობა(ები)",
+    "data": [
+      {
+        "personalityCode": "r13",
+        "title": "პოსტავს ცხოვრებისეულ სიახლეებს 3-5 დღის ინტერვალით. ფოტოებს ტვირთავს ძალიან იშვიათად, მხოლოდ იმ შემთხვევებში, როდესაც ფბ ამას ავტომატურად აკეთებს"
+      },
+      {
+        "personalityCode": "r14",
+        "title": "ჩექინდება ძალიან ბევრ ივენთზე და ნიშნავს თავს ყველა სურათზე"
+      },
+      {
+        "personalityCode": "r5",
+        "title": "პოსტავს ბევრ ფოტოს, რომელიც გამოხატავს კაცობრიობის საქციელით გამოწვეულ მის იმედგაცრუებას"
+      },
+      {
+        "personalityCode": "r7",
+        "title": "თავს ნიშნავს მთვრალ მდგომარეობაში ბევრ ფოტოზე, რაც იწვევს მეგობრების აღშფოთებას"
+      },
+      {
+        "personalityCode": "r1",
+        "title": "დღის განმავლობაში რამდენჯერმე იწვევს მეგობრებს 'ქენდი ქრაშის სათამაშოდ', მიუხედავად იმისა, რომ ისინი არასდროს ხსნიან ამ ლინკებს"
+      },
+      {
+        "personalityCode": "r8",
+        "title": "რამდენიმე წლის განმავლობაში პერიოდულად ტვირთავს თავისი ქორწილის ფოტოებს"
+      },
+      {
+        "personalityCode": "r6",
+        "title": "პროფილის პროფილის ფოტოზე ჩანს მხოლოდ მისი სახე"
+      },
+      {
+        "personalityCode": "r2",
+        "title": "ალაიქებს ყველა იმ სტატუსს, რომელსაც ბოლო 10 წუთის განმავლობაში არ გამოუწვევია სხვების რეაქცია"
+      },
+      {
+        "personalityCode": "r4",
+        "title": "ხშირად აგზავნის უცნაური წვეულებების მოსაწვევებს"
+      },
+      {
+        "personalityCode": "r3",
+        "title": "დღის განმავლობაში იღებს უამრავ სელფის"
+      },
+      {
+        "personalityCode": "r11",
+        "title": "არჩევანს აკეთებს მეგობრებთან გადაღებული მხიარული ფოტოების და ადამიანის უფლებების დაცვასთან დაკავშირებულ პოსტის გამოქვეყნებას შორის"
+      },
+      {
+        "personalityCode": "r12",
+        "title": "ენთუზიაზმით ცვლის თავისი ოჯახური მდგომარეობის/ადგილმდებარეობის/კარიერაში წინსვლის შესახებ ინფორმაციას ყოველ 2-3 თვეში ერთხელ და იღებს ასობით ლაიქს"
+      },
+      {
+        "personalityCode": "r10",
+        "title": "წერს უამრავ სტატუსს ისეთი ტექსტით, რომელიც სავარაუდოდ მეგობრებში კითხვებს გააჩენს"
+      },
+      {
+        "personalityCode": "r16",
+        "title": "ყველა პოსტზე შეუძლია იკამათოს ყოველგვარი მიზეზის გარეშე"
+      },
+      {
+        "personalityCode": "r9",
+        "title": "ხშირად პოსტავს სხვადასხვა ცნობილი ადამიანის გამონათქვამს"
+      },
+      {
+        "personalityCode": "r15",
+        "title": "არაფერი დაუპოსტავს წლების განმავლობაში, მაგრამ სავარაუდოა რომ თითქმის ყველაფერს კითხულობს და თვალს ადევნებს"
+      }
+    ]
+  },
+  "celebrities": {
+    "question": "რომელ ცნობილ ადამიან(ებ)თან გააიგივებდით საკუთარ თავს?",
+    "data": [
+      {
+        "personalityCode": "r16",
+        "title": "ბარაკ ობამა",
+        "imgPath": "celebrities/barack_obama.png"
+      },
+      {
+        "personalityCode": "r15",
+        "title": "ალბერტ აინშტაინი",
+        "imgPath": "celebrities/albert_einstein.png"
+      },
+      {
+        "personalityCode": "r14",
+        "title": "ბილ გეითსი",
+        "imgPath": "celebrities/bill_gates.png"
+      },
+      {
+        "personalityCode": "r13",
+        "title": "მარკ ცუკერბერგი",
+        "imgPath": "celebrities/mark_zuckerberg.png"
+      },
+      {
+        "personalityCode": "r12",
+        "title": "სალვადორ დალი",
+        "imgPath": "celebrities/salvador_dali.png"
+      },
+      {
+        "personalityCode": "r11",
+        "title": "ვინსენტ ვან გოგი",
+        "imgPath": "celebrities/vincent_van_gogh.png"
+      },
+      {
+        "personalityCode": "r10",
+        "title": "იოჰან ვონ გოეთე",
+        "imgPath": "celebrities/johann_von_goethe.png"
+      },
+      {
+        "personalityCode": "r9",
+        "title": "თედორე დოსტოევსკი",
+        "imgPath": "celebrities/theodore_dostoevsky.png"
+      },
+      {
+        "personalityCode": "r6",
+        "title": "ჰენრი ფორდი",
+        "imgPath": "celebrities/henry_ford.png"
+      },
+      {
+        "personalityCode": "r5",
+        "title": "ზიგმუნდ ფროიდი",
+        "imgPath": "celebrities/zigmund_freyd.png"
+      },
+      {
+        "personalityCode": "r8",
+        "title": "უიტნი ჰიუსტონი",
+        "imgPath": "celebrities/witney_houston.png"
+      },
+      {
+        "personalityCode": "r2",
+        "title": "ბრიუს უილისი",
+        "imgPath": "celebrities/bruce_willis.png"
+      },
+      {
+        "personalityCode": "r7",
+        "title": "მერილ სტრიპი",
+        "imgPath": "celebrities/meryl_streep.png"
+      },
+      {
+        "personalityCode": "r1",
+        "title": "სტივ ჯობს",
+        "imgPath": "celebrities/steve_jobs.png"
+      },
+      {
+        "personalityCode": "r4",
+        "title": "პაულო კოელიე",
+        "imgPath": "celebrities/paulo_coelho.png"
+      },
+      {
+        "personalityCode": "r3",
+        "title": "მაიკლ ჯექსონი",
+        "imgPath": "celebrities/michael_jackson.png"
+      }
+    ]
+  },
+  "ornaments": {
+    "question": "ამოარჩიეთ თქვენთვის მისაღები ორნამენტ(ებ)ი",
+    "data": [
+      { "personalityCode": "r11", "imgPath": "ornaments/r11.png" },
+      { "personalityCode": "r12", "imgPath": "ornaments/r12.png" },
+      { "personalityCode": "r10", "imgPath": "ornaments/r10.png" },
+      { "personalityCode": "r9", "imgPath": "ornaments/r9.png" },
+      { "personalityCode": "r6", "imgPath": "ornaments/r6.png" },
+      { "personalityCode": "r5", "imgPath": "ornaments/r5.png" },
+      { "personalityCode": "r8", "imgPath": "ornaments/r8.png" },
+      { "personalityCode": "r2", "imgPath": "ornaments/r2.png" },
+      { "personalityCode": "r16", "imgPath": "ornaments/r16.png" },
+      { "personalityCode": "r15", "imgPath": "ornaments/r15.png" },
+      { "personalityCode": "r14", "imgPath": "ornaments/r14.png" },
+      { "personalityCode": "r13", "imgPath": "ornaments/r13.png" },
+      { "personalityCode": "r7", "imgPath": "ornaments/r7.png" },
+      { "personalityCode": "r1", "imgPath": "ornaments/r1.png" },
+      { "personalityCode": "r4", "imgPath": "ornaments/r4.png" },
+      { "personalityCode": "r3", "imgPath": "ornaments/r3.png" }
+    ]
+  }
+}

@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const quizzesRouter = require('./routes/quizzes');
+const usersRouter = require('./routes/users');
+const personalitiesRouter = require('./routes/personalities');
 
 const app = express();
 
@@ -21,8 +23,14 @@ app.use(
   }),
 );
 
-const ENDPOINTS = { QUIZZES: '/api/v1/quizzes' };
+const ENDPOINTS = {
+  QUIZZES: '/api/v1/quizzes',
+  USERS: '/api/v1/users',
+  PERSONALITIES: '/api/v1/personalities',
+};
 
 app.use(ENDPOINTS.QUIZZES, quizzesRouter);
+app.use(ENDPOINTS.USERS, usersRouter);
+app.use(ENDPOINTS.PERSONALITIES, personalitiesRouter);
 
 module.exports = app;
