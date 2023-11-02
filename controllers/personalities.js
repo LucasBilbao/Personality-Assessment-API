@@ -6,13 +6,28 @@ const personalities = JSON.parse(
   fs.readFileSync(PERSONALITIES_FILE_PATH, 'utf-8'),
 );
 
+const sortAndFilterBy = (arr, sorter) => {
+  const sortedAndFiltered = [];
+
+  for (let i = 0; i < sorter.length; ++i) {
+    const found = arr.find((item) => sorter[i] === item.personalityCode);
+    if (!found) {
+      continue;
+    }
+
+    sortedAndFiltered.push(found);
+  }
+
+  return sortedAndFiltered;
+};
+
 exports.checkPersonalityInBody = (req, res, next) => {
   const isBodyComplete =
-    req.body.personalities || req.body.personalities?.length === 0;
+    req.body.personalityCodes && req.body.personalityCodes?.length !== 0;
   if (!isBodyComplete) {
     return res.status(400).json({
       status: 'fail',
-      message: 'Request must contain personalities array',
+      message: 'Request must contain personality codes array',
     });
   }
   next();
@@ -20,9 +35,10 @@ exports.checkPersonalityInBody = (req, res, next) => {
 
 exports.getPersonality = (req, res) => {
   try {
-    const { personalities: personalityCodes } = req.body;
-    const personalitiesToSend = personalities.filter((personality) =>
-      personalityCodes.includes(personality.personalityCode),
+    const { personalityCodes } = req.body;
+    const personalitiesToSend = sortAndFilterBy(
+      personalities,
+      personalityCodes,
     );
 
     res.status(200).json({
